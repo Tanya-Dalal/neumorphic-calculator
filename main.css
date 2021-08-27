@@ -1,0 +1,78 @@
+body {
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: #00ffff;
+  }
+
+  .formstyle{
+      width: 60%;
+      height: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 39px;
+      background: #00ffff;
+      box-shadow: 8px 8px 20px #007d7d,
+                -8px -8px 20px #00ffff;
+
+  }
+
+  #calc , #clear{
+      width: 100%;
+      border: none;
+      padding: 20px;
+      margin: auto;
+      border-radius: 10px;
+      background: #00ffff;
+      box-shadow: 8px 8px 20px #007d7d,
+                -8px -8px 20px #00ffff;
+      color: #007d7d;
+
+  }
+
+  input{
+    width: 20%;
+    border: none;
+    padding: 20px;
+    margin-left: 2%;
+    border-radius: 5px;
+    background: #00ffff;
+    box-shadow: 8px 8px 20px #007d7d,
+              -8px -8px 20px #00ffff;
+    transition: 0.9s;
+    color: #007d7d;
+  }
+
+  input:hover{
+    box-shadow: inset 8px 8px 28px #00baba,
+                inset -8px -8px 28px #00ffff;
+  }
+
+
+
+  @media (max-width: 760px) {
+    .formstyle{
+        width: 90%;
+        height: 90%;
+        
+  
+    }
+    
+     #calc , #clear{
+      width: 80%;
+      padding: 20px;
+      margin-left:auto;
+
+  }
+    
+    .formstyle{
+      border-radius:10px;
+    }
+    
+    
+  }
