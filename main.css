@@ -46,13 +46,16 @@ body {
               -8px -8px 20px #00ffff;
     transition: 0.9s;
     color: #007d7d;
+    outline:none;
   }
 
   input:hover{
     box-shadow: inset 8px 8px 28px #00baba,
                 inset -8px -8px 28px #00ffff;
   }
-
+  input[type="button"]::-moz-focus-inner {
+   border: 0;
+  }
 
 
   @media (max-width: 760px) {
